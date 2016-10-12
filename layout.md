@@ -2,5 +2,4 @@ untitled.tex
 section_Hardware_subsection_General_Architecture__.tex
 section_Software_subsection_General_Routing__.tex
 section_Uses__.tex
-section_Taxonomy__.tex
 section_Conclusion__.tex
