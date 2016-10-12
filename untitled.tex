@@ -12,16 +12,30 @@ counterparts found in enterprise and home networks.
 
 The Internet backbone is composed of government and commercially controlled
 network infrastructure, generally made up of Core and Edge routers, as well as
-their communications channels. In many cases Edge routers previously served as
-core routers, but have been replaced by newer hardware. Typically they differ
-from core routers in their speed, capacity, and filtering capabilities, and
-serve to provide an interface to the network core. This is a simplification of
-a heavily layered model of network communications, composed of enterprise and
-consumer routers and switches working in concert to provide security and
-service guarantees to end users.
+their communications channels. Typically edge routers differ from core routers
+in their speed, capacity, and filtering capabilities, and serve to provide an
+interface to the network core. In many cases edge routers previously served as
+core routers, but have been replaced by newer hardware. Routers on the core are
+subject to stringent performance requirements. Typical interfaces on Core
+routers are now in excess of 100 Gbps, with some commodity routers, such as the
+Cisco CRS-X Modular Service card capable of a 400-Gbps line-rate per slot, and
+a total throughput of 12.8 Tbps for a single chassis~\cite{_cisco_????-1}. In
+contrast, a typical home network likely does not exceed 100 Mbps, with an
+average connection speed of 11.9Mbps according to an Akamai report in
+2015~\cite{gold_u.s._2015}. 
 
-The focus of this paper is on providing an embedded systems perspective for
-the hardware and software capabilities available in the routers making up the
+Routers found on the backbone infrastructure are responsible for the routing,
+and forwarding of network data to their destination addresses. Typically this
+is by means of IP \& Ethernet protocols, but increasingly these routers are
+performing more sophisticated filtering and QoS activities. Recently, this has
+drawn concern from Network Neutrality advocates, and raises concerns about the
+fundamental assumptions of the role of routing in IP, and other network
+protocols.
+
+
+
+The focus of this paper is on providing an embedded systems perspective for the
+hardware and software capabilities available in the routers making up the
 Internet Backbone.
 
 
